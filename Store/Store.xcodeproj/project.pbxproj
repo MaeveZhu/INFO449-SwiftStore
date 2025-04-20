@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		504795772DB4C22000097C10 /* StoreTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = StoreTests.xctestplan; path = ../StoreTests.xctestplan; sourceTree = "<group>"; };
 		FEAFD27B2B91637C00BEB810 /* Store */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Store; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAFD27E2B91637C00BEB810 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FEAFD2892B9163D100BEB810 /* StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +53,7 @@
 		FEAFD2722B91637C00BEB810 = {
 			isa = PBXGroup;
 			children = (
+				504795772DB4C22000097C10 /* StoreTests.xctestplan */,
 				FEAFD27D2B91637C00BEB810 /* Store */,
 				FEAFD28A2B9163D100BEB810 /* StoreTests */,
 				FEAFD27C2B91637C00BEB810 /* Products */,
@@ -310,7 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 87FZ4MRH6V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -321,7 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 87FZ4MRH6V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -333,7 +335,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 87FZ4MRH6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.newart.store.StoreTests;
@@ -348,7 +350,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 87FZ4MRH6V;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.newart.store.StoreTests;

@@ -66,4 +66,24 @@ TOTAL: $7.97
 """
         XCTAssertEqual(expectedReceipt, receipt.output())
     }
+    
+    func testOneCouponOnTwoPears() {
+        register.scan(Item(name: "Pears", priceEach: 100))
+        register.scan(Item(name: "Pears", priceEach: 100))
+        register.scan(Coupon(name: "Pears", priceEach: 100))
+
+        let receipt = register.total()
+        XCTAssertEqual(285, receipt.total())
+
+        let expected = """
+        Receipt:
+        Pears: $1.00
+        Pears: $1.00
+        Pears (15% off): $0.85
+        ------------------
+        TOTAL: $2.85
+        """
+        XCTAssertEqual(expected, receipt.output())
+    }
+
 }
